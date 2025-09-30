@@ -14,16 +14,17 @@ The goal of this task is to **understand password strength**, explore how comple
 
 ##  Password Testing & Evaluation
 
-We created multiple sample passwords with varying complexity levels and tested them using the strength checker.  
+I created multiple sample passwords with varying complexity levels and tested them using the strength checker.  
+
+##  Password Testing & Evaluation
 
 | Password Example | Strength Score | Feedback (from tool) | Screenshot |
 |------------------|----------------|-----------------------|------------|
 | `12345`   | 4% (Very Weak)     | Too short, dictionary word, lacks symbols/numbers. Easy to crack via dictionary attack. | <img width="1919" height="976" alt="Screenshot 2025-09-30 115844" src="https://github.com/user-attachments/assets/917d3f5c-afcd-4f2c-9b39-ebb2a8f59187" /> |
- 
-| `Password`    | 26% (Weak)     | Mixed case , but still predictable and common pattern. Vulnerable to brute force/dictionary. | <img width="1919" height="953" alt="Screenshot 2025-09-30 120121" src="https://github.com/user-attachments/assets/e5efc197-b8e1-40af-80b1-686fb9eb226d" /> |
+| `Password`    | 26% (Weak)     | Mixed case, but still predictable and common pattern. Vulnerable to brute force/dictionary. | <img width="1919" height="953" alt="Screenshot 2025-09-30 120121" src="https://github.com/user-attachments/assets/e5efc197-b8e1-40af-80b1-686fb9eb226d" /> |
+| `Cyb3r$`    | 50% (Good)   | Good mix of letters, numbers, symbols. More resistant to brute force, but short length reduces strength. | <img width="1919" height="918" alt="Screenshot 2025-09-30 120648" src="https://github.com/user-attachments/assets/56176edc-cc2c-43fb-aec3-57a7be8a88ac" /> |
+| `!Secure_The#Future@2025` | 100% (Very Strong) | Long length, mix of characters, randomness. Difficult to guess and highly resistant to brute force/dictionary attacks. | <img width="1919" height="962" alt="Screenshot 2025-09-30 120721" src="https://github.com/user-attachments/assets/f05e75f9-e82a-452c-b893-772e17749903" /> |
 
-| `Cyb3r$Ec@rity!`    | 80% (Strong)   | Good mix of letters, numbers, symbols. More resistant to brute force, but pattern “P@ssw0rd” is commonly used. | ![Screenshot3](screenshots/screen3.png) |
-| `!Secure_The#Future@2025` | 95% (Very Strong) | Long length, mix of characters, randomness. Difficult to guess and highly resistant to brute force/dictionary attacks. | ![Screenshot4](screenshots/screen4.png) |
 
 ---
 
